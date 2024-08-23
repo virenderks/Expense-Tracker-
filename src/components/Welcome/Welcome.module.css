@@ -1,0 +1,93 @@
+.welcomeDiv {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(156, 146, 146);
+    background-color: #12adea;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* background-image: url(/public/images/bg.jpg); */
+    /* background-size: cover; */
+  }
+  .welcomeDiv.dark {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(156, 146, 146);
+    /* background-color: black; */
+    background: url(/public/images/bgDark.jpg);
+    color: white;
+  }
+  .welcomeP2 {
+    height: min-content;
+    display: flex;
+    font-style: italic;
+    background-color: transparent;
+    border: 1px solid rgb(9, 8, 8);
+    border-radius: 10px;
+    font-style: italic;
+  }
+  .welcomeP2.dark {
+    color: white;
+    border: 1px solid rgb(244, 241, 241);
+  }
+  
+  .updateButton {
+    color: rgb(245, 37, 9);
+    border: none;
+    background-color: transparent;
+    font-style: italic;
+  }
+  .updateButton:hover {
+    color: blueviolet;
+  }
+  .logout {
+    border: 1px solid blue;
+    background-color: transparent;
+    color: rgb(8, 42, 120);
+    font-weight: 600;
+    font-size: 3mm;
+    border-radius: 10px;
+    margin-top: 8px;
+    padding: 5px;
+  }
+  .logout.dark {
+    color: white;
+    border: 1px solid rgb(246, 246, 249);
+  }
+  .logout:hover {
+    border: 1px solid rgb(4, 4, 4);
+  }
+  .logout.dark:hover {
+    border: 1px solid rgb(5, 130, 144);
+  }
+  .premiumButtons {
+    justify-content: space-between;
+  }
+  .premium {
+    background-color: rgb(226, 43, 49);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 8px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  .premium:hover {
+    background-color: rgb(80, 9, 9);
+  }
+  /* .toggle {
+    background-color: rgb(6, 6, 6);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 8px;
+    padding: 5px;
+  }
+  .toggle:hover {
+    background-color: gray;
+  } */
+  
+  .toggle {
+    display: flex;
+    font-family: cursive;
+  }
+  

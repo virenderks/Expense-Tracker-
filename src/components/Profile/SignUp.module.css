@@ -1,0 +1,105 @@
+.div {
+    display: flex;
+    text-align: center;
+  }
+  .div1 {
+    margin: auto;
+    font-size: 30px;
+    color: white;
+  }
+  .div1 p {
+    text-align: right;
+    font-size: 20px;
+    color: rgb(112, 179, 202);
+  }
+  .div2 {
+    position: relative;
+    margin: 3rem auto;
+    width: 95%;
+    max-width: 25rem;
+  }
+  .auth {
+    border-radius: 6px;
+    background-color: #0f17a3;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  .auth h1 {
+    background-color: #17129f;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    padding: 2px;
+    text-decoration: underline;
+  }
+  .control {
+    margin-bottom: 0.5rem;
+  }
+  
+  .control label {
+    display: block;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+  
+  .control input {
+    font: inherit;
+    background-color: #f1e1fc;
+    color: #38015c;
+    border-radius: 4px;
+    border: 1px solid white;
+    width: 100%;
+    text-align: left;
+    padding: 0.25rem;
+  }
+  
+  .actions {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .actions button {
+    cursor: pointer;
+    font: inherit;
+    color: white;
+    background-color: #4f61d5;
+    border: 1px solid #09346d;
+    border-radius: 4px;
+    padding: 0.5rem 2.5rem;
+  }
+  
+  .actions button:hover {
+    background-color: #4554bc;
+    border-color: #873abb;
+  }
+  .toggle {
+    background-color: #4f61d5;
+    color: #e9e7eb;
+    border-radius: 8px;
+    border: 1px solid rgb(232, 225, 225);
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 10px;
+  }
+  
+  .toggle:hover {
+    background-color: #4554bc;
+  }
+  .forgotPassword {
+    background-color: transparent;
+    border: none;
+    color: rgb(250, 247, 247);
+  }
+  
+  .forgotPassword:hover {
+    color: white;
+  }
+  
